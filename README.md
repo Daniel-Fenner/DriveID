@@ -9,6 +9,6 @@ Inspirado em soluções de pagamento automático como o Sem Parar, o DriveID uti
 
 Além da automação do pagamento, o aplicativo também permite que o motorista encontre estacionamentos próximos, visualize informações sobre eles e escolha a melhor opção para sua necessidade.
 
-ADS11
+ADS21
 
 Daniel, Olavo, Yuri
