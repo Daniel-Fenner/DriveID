@@ -1,7 +1,6 @@
 # DriveID
 Projeto PMI | DriveID
 
-DriveID
 Estacionamento inteligente, simples e automatizado.
 
 O DriveID é uma solução de mobilidade urbana desenvolvida para tornar a experiência de estacionar mais rápida, prática e automatizada.
