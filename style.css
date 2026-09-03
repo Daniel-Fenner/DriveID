@@ -1,0 +1,409 @@
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    margin: 0;
+
+    background-color: #111;
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+
+    background-color: #111;
+
+    border-bottom: 3px solid #FFD700;
+
+    padding: 15px 0;
+}
+
+
+.navbar-brand {
+
+    color: #FFD700 !important;
+
+    font-size: 30px;
+
+    font-weight: bold;
+}
+
+
+.nav-link {
+
+    color: white !important;
+
+    margin-left: 20px;
+}
+
+
+.nav-link:hover {
+
+    color: #FFD700 !important;
+}
+
+
+
+/* =========================
+   INÍCIO
+========================= */
+
+.inicio {
+
+    min-height: 650px;
+
+    display: flex;
+
+    align-items: center;
+
+    text-align: center;
+
+
+    background-image:
+
+        linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+        ),
+
+        url("imgfundo.jpg");
+
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+}
+
+
+.conteudo {
+
+    max-width: 800px;
+
+    margin: auto;
+}
+
+
+.inicio h1 {
+
+    font-size: 60px;
+
+    font-weight: bold;
+
+    color: #FFD700;
+
+    margin-bottom: 25px;
+}
+
+
+.inicio p {
+
+    font-size: 19px;
+
+    line-height: 1.6;
+
+    color: #eee;
+}
+
+
+.botao {
+
+    margin-top: 20px;
+
+    background-color: #FFD700;
+
+    color: black;
+
+    border: none;
+
+    padding: 14px 25px;
+
+    font-weight: bold;
+
+    border-radius: 8px;
+}
+
+
+.botao:hover {
+
+    background-color: white;
+
+    color: black;
+}
+
+
+
+/* =========================
+   ESTACIONAMENTOS
+========================= */
+
+.estacionamentos {
+
+    padding: 80px 0;
+
+    text-align: center;
+
+    background-color: #151515;
+}
+
+
+.estacionamentos h2 {
+
+    color: #FFD700;
+
+    font-size: 40px;
+
+    font-weight: bold;
+}
+
+
+.descricao {
+
+    color: #ccc;
+
+    font-size: 18px;
+}
+
+
+
+/* =========================
+   BUSCA
+========================= */
+
+.estacionamentos .form-control {
+
+    padding: 12px;
+
+    border: none;
+}
+
+
+.estacionamentos .btn-warning {
+
+    font-weight: bold;
+}
+
+
+
+/* =========================
+   CARDS DE ESTACIONAMENTO
+========================= */
+
+.estacionamento-card {
+
+    background-color: #111;
+
+    border: 2px solid #FFD700;
+
+    border-radius: 10px;
+
+    color: white;
+
+    text-align: left;
+
+    transition: 0.2s;
+}
+
+
+.estacionamento-card:hover {
+
+    transform: translateY(-5px);
+}
+
+
+.estacionamento-card .card-title {
+
+    color: #FFD700;
+
+    font-weight: bold;
+}
+
+
+.estacionamento-card .card-text {
+
+    color: #ddd;
+}
+
+
+.preco {
+
+    color: #FFD700;
+
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+
+
+/* =========================
+   FUNCIONALIDADES
+========================= */
+
+.funcionalidades {
+
+    padding: 80px 0;
+
+    text-align: center;
+
+    background-color: #080808;
+}
+
+
+.funcionalidades h2 {
+
+    color: #FFD700;
+
+    font-size: 40px;
+
+    font-weight: bold;
+}
+
+
+.funcionalidade-card {
+
+    background-color: #111;
+
+    border: 2px solid #FFD700;
+
+    border-radius: 10px;
+
+    color: white;
+}
+
+
+.funcionalidade-card h3 {
+
+    color: #FFD700;
+
+    font-weight: bold;
+}
+
+
+.funcionalidade-card p {
+
+    color: #ddd;
+
+    line-height: 1.6;
+}
+
+
+
+/* =========================
+   CONTATO
+========================= */
+
+.contato {
+
+    padding: 60px 0;
+
+    background-color: #151515;
+}
+
+
+.contato h2 {
+
+    color: #FFD700;
+
+    font-size: 35px;
+}
+
+
+.contato p {
+
+    color: #ccc;
+}
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+
+    background-color: #111;
+
+    border-top: 3px solid #FFD700;
+
+    padding: 25px 0;
+
+    text-align: center;
+}
+
+
+footer p {
+
+    margin: 0;
+
+    color: #aaa;
+}
+
+
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 768px) {
+
+    .inicio {
+
+        min-height: 600px;
+
+        padding: 50px 20px;
+    }
+
+
+    .inicio h1 {
+
+        font-size: 42px;
+    }
+
+
+    .inicio p {
+
+        font-size: 17px;
+    }
+
+
+    .navbar-brand {
+
+        font-size: 26px;
+    }
+
+
+    .nav-link {
+
+        margin-left: 0;
+
+        padding: 10px 0;
+    }
+
+
+    .estacionamentos h2,
+    .funcionalidades h2 {
+
+        font-size: 32px;
+    }
+
+}
